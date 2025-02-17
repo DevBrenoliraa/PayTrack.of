@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(./header.css);
+/* RESET GLOBAL */
+
+
+* { 
+    font-family: 'Poppins', sans-serif;  /* Define a fonte padrão para todo o conteúdo */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+    text-decoration: none; /* Remove sublinhados de links por padrão */
+    outline: none; /* Remove o contorno ao focar nos elementos */
+    border: none; /* Remove bordas padrão */
+    padding: 0; /* Remove o preenchimento interno padrão */
+    margin: 0; /* Remove as margens padrão */
+}
+
+body {
+    background-color: #fff; /* Define o fundo da página */
+}
+
+section {
+    padding: 20px 15px;
+    margin: 0px auto; 
+    max-width: 1300px;
+}
